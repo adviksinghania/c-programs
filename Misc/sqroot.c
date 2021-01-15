@@ -1,16 +1,24 @@
-//Finding the square root of number using loops
+/* Finding the square root of number using loops
+ * For positive real numbers only
+ */
 #include <stdio.h>
 #include <math.h>
 
 int main() {
-    float a, eps=0.000001;
+    // Initialization phase:
+    float num, eps = 0.000001;  // A very small number, epsilon
     printf("Enter a number: ");
-    scanf("%f", &a);
-    float x=a, y=(x+a/x)/2.0;
-    while(fabs(y-x) > eps) {
-        x=y;
-        y=(x+a/x)/2.0;
+    scanf("%f", &num);
+    float x = num, y = (x + num / x) / 2.0;  // Newton's formula
+
+    // fabs() function for float data type
+    while(fabs(y - x) > eps) { // While absolute of y - x is greater than epsilon
+        x = y;
+        y = (x + num / x) / 2.0;
     }
-    printf("Square root of %f is: %f\n", a, y);
-    return(0);
+
+    // Output phase:
+    printf("Square root of %f is: %f\n", num, y);
+
+    return(0); // EXIT_SUCCESS
 }
