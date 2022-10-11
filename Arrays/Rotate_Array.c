@@ -8,7 +8,7 @@ void printArr(int arr[], int n);
 //To preint the array in the shell
 
 void Rotate(int arr[], int n, int k);
-//This takes arr, size of arr, an integer k to Rotate arr
+// This takes arr, size of arr, an integer k to rotate the arr
 
 int main()
 {
