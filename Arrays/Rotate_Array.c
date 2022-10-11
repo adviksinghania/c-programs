@@ -48,11 +48,9 @@ void Rotate(int *arr, int n, int k)
     
 }
 
-void Print_arr(int arr[], int n)
-{
+void printArr(int arr[], int n) {
     for(int i = 0; i < n; i++)
-    {
         printf("%d ", arr[i]);
-    }
+
     printf("\n");
 }
