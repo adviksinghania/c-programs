@@ -22,24 +22,14 @@ int main()
 }
 
 
-//Functions definations
-
-void Rotate(int *arr, int n, int k)
-{
-    int temp[1000];// a temperory array
-    for(int i = 0; i < n; i++)
-    {
-        
+//Functions definitions
+void rotateArr(int *arr, int n, int k) {
+    int temp[10];  // a temporary array
+    for (int i = 0; i < n; i++)
         temp[i] = arr[i];
-    }
 
     for(int i = 0; i < n; i++)
-    {
-        arr[(i + k) % n] = temp[i];
-        
-    }
-
-    
+        arr[(i + k) % n] = temp[i];    
 }
 
 void printArr(int arr[], int n) {
