@@ -1,6 +1,5 @@
 /*
 Program to rotate the input array by "N" times
-
 */
 
 #include<stdio.h>
