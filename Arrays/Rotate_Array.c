@@ -18,8 +18,6 @@ int main()
     printArr(arr, 10);
     rotateArr(arr, 10, 4);
     printArr(arr, 10);
-
-
     return 0;
 }
 
