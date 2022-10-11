@@ -5,7 +5,7 @@ Program to rotate the input array by "N" times
 
 #include<stdio.h>
 
-void Print_arr(int arr[], int n);
+void printArr(int arr[], int n);
 //To preint the array in the shell
 
 void Rotate(int arr[], int n, int k);
