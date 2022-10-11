@@ -1,7 +1,6 @@
 /*
 Program to rotate the input array by "N" times
 code will Rotated the inputed
-array by the number "N" numbers
 
 */
 
