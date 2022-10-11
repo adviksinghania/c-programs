@@ -12,14 +12,12 @@ void Rotate(int arr[], int n, int k);
 
 int main()
 {
-    int arr[1000] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    //The array in ehich we are applincg this perticular code
+    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    // The array in which we are applying this particular code
 
-    Print_arr(arr, 10);
-
-    Rotate(arr, 10, 4);
-
-    Print_arr(arr, 10);
+    printArr(arr, 10);
+    rotateArr(arr, 10, 4);
+    printArr(arr, 10);
 
 
     return 0;
